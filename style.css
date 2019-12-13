@@ -1,0 +1,88 @@
+body {
+	background-color: #f4f4f4;
+	color: rgb(30, 30, 30);
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: bolder;
+
+}
+
+h1 {
+	color: #4a47a3;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bolder;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 26px;
+	color: #4a47a3;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-size: 19px;
+}
+a:hover {
+	color: rgb(30, 30, 30);
+}
+i {
+	color: blue;
+}
+
+#logo {
+	color: purple;
+}
+
+#logo:hover {
+	color: black;
+}
+
+#intro p {
+	margin-bottom: 30px
+}
+
+/* mes class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 3px 3px 3px 1px grey;
+	border-radius 4px;
+	margin: 20px 0px;
+	text-align: center;
+	list-style: none;
+}
+.btn-red {
+	background-color: #da2d2d;
+	color: white;
+	padding: 13px 18px;
+	border-radius: 4px;
+}
+.btn-red:hover {
+	background-color: grey;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;	
+}
+.list-inline i {
+	font-size: 40px;
+}
+.list-inline:hover i {
+	color: black;
+}
+.img-circle {
+	border-radius: 10px;
+}
